@@ -11,11 +11,12 @@
         android:layout_height="100dp"
         android:layout_weight="1"
         android:src="@drawable/audi"
+        android:scaleType="centerCrop"
         />
 
     <TextView
         android:id="@+id/item_text"
-        android:layout_width="269dp"
+        android:layout_width="201dp"
         android:layout_height="match_parent"
         android:gravity="center|center_vertical"
         android:text="Какой-то текст"

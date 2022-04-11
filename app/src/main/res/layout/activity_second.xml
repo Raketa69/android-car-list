@@ -10,7 +10,6 @@
         android:id="@+id/textView_model"
         android:layout_width="116dp"
         android:layout_height="38dp"
-        android:layout_marginStart="6dp"
         android:gravity="center|center_vertical"
         android:text="TextView"
         android:textSize="20sp"
@@ -18,18 +17,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.100000024" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ListView
         android:id="@+id/listView_model"
         android:layout_width="342dp"
         android:layout_height="549dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_model" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_model"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
